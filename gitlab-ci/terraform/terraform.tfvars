@@ -1,0 +1,8 @@
+cloud_id            = "b1g75uge12b4dnqbk3f6"
+folder_id           = "b1gjmdta5qarrmg8d8ur"
+service_account_key = "/home/ubuntu/yandex_conf/key.json"
+subnet_id           = "e9bo22i6uj0tqc0bq2pc"
+private_key         = "/home/ubuntu/yandex_conf/id_ed25519"
+public_key          = "/home/ubuntu/yandex_conf/id_ed25519.pub"
+zone                = "ru-central1-a"
+image_id            = "fd8bu9gsckcm2351kqaq"
