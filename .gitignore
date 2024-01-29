@@ -1,0 +1,9 @@
+variables.json
+.idea
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+*.lock.hcl
+.env
