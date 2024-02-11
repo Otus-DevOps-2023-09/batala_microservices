@@ -59,10 +59,11 @@ ansible-playbook register_runner.yml -e gitlab_token=your_token -e gitlab_url=yo
 # ДЗ: Создание и запуск системы мониторинга Prometheus.
 
 ссылки на образы 
+```shell
 https://hub.docker.com/repository/docker/batala/comment
 https://hub.docker.com/repository/docker/batala/post
 https://hub.docker.com/repository/docker/batala/ui
-
+```
 Для запуска выполнить следующий порядок действий:
 Перейти в директорию docker и заполнить .env файл, образец заполнения в .env.example
 Запустить порилождение и систему мониторинга командой
