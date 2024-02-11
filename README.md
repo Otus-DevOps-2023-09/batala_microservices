@@ -56,5 +56,17 @@ terraform apply
 ```shell
 ansible-playbook register_runner.yml -e gitlab_token=your_token -e gitlab_url=your_gitlab_url
 ```
+# ДЗ: Создание и запуск системы мониторинга Prometheus.
 
+ссылки на образы 
+https://hub.docker.com/repository/docker/batala/comment
+https://hub.docker.com/repository/docker/batala/post
+https://hub.docker.com/repository/docker/batala/ui
+
+Для запуска выполнить следующий порядок действий:
+Перейти в директорию docker и заполнить .env файл, образец заполнения в .env.example
+Запустить порилождение и систему мониторинга командой
+    docker-compose up -d
+Для проверки работы мониторинга перейти в браузере по адресу 
+http://адрес сервера  на котором запущен compouse:9090
 
