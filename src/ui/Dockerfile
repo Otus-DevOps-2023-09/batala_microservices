@@ -7,5 +7,4 @@ ENV COMMENT_SERVICE_PORT 9292
 WORKDIR /app
 ADD . $APP_HOME
 RUN apk --no-cache --update add build-base && bundle install
-
 CMD ["puma"]
