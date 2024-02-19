@@ -71,3 +71,16 @@ https://hub.docker.com/repository/docker/batala/ui
 Для проверки работы мониторинга перейти в браузере по адресу 
 http://адрес сервера  на котором запущен compouse:9090
 
+# ДЗ Kubernetes-1
+1. Развернул кластер kubernetes
+2. Подготовил манифесты для развертывания приложений
+3. Выполнил развертывание командами
+```shell
+    kubectl apply -f mongo-deployment.yml
+    kubectl apply -f ui-deployment.yml
+    kubectl apply -f post-deployment.yml
+    kubectl apply -f comment-deployment.yml
+```
+4. Написал конфиг terraform и ansible для автоматизации развертывания кластера
+
+
